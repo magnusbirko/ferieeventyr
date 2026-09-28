@@ -1,24 +1,28 @@
 "use client";
 
-import { useState } from "react";
+// Menu is temporarily disabled. To bring it back, uncomment the marked blocks
+// (the import, the links list, the state, and the button + nav in the JSX).
+
+// import { useState } from "react";
 
 // Add or remove menu items here. Links point to sections on the same page.
-const links = [
-  //{ href: "#eventyret", label: "Eventyret" },
-  //{ href: "#univers", label: "Universet" },
-  //{ href: "#djursland", label: "Djursland" },
-];
+// const links = [
+//   { href: "#eventyret", label: "Eventyret" },
+//   { href: "#univers", label: "Universet" },
+//   { href: "#djursland", label: "Djursland" },
+// ];
 
 export default function Header() {
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
 
   return (
-    <header className="site-header">
-      <div className="header-inner">
-        <a href="#top" className="brand" onClick={() => setOpen(false)}>
-          <img className="brand-compass" src="/compass.png" alt="" width="132" height="156" />
-          <span>FERIEEVENTYR</span>
-        </a>
+      <header className="site-header">
+        <div className="header-inner">
+          <a href="#top" className="brand">
+            <img className="brand-compass" src="/compass.png" alt="" width="132" height="156" />
+            <span>FERIEEVENTYR</span>
+          </a>
+          {/*
         <button
           type="button"
           className="menu-toggle"
@@ -40,7 +44,8 @@ export default function Header() {
             ))}
           </ul>
         </nav>
-      </div>
-    </header>
+        */}
+        </div>
+      </header>
   );
 }
