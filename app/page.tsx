@@ -65,6 +65,7 @@ export default function Home() {
             <p>
               Lige nu testes den første version på Djursland sammen med familier,
               som har lyst til at være med helt fra begyndelsen.
+              Hvis du ønsler at
             </p>
           </div>
         </section>
