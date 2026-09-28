@@ -18,7 +18,7 @@ export default function Header() {
   return (
       <header className="site-header">
         <div className="header-inner">
-          <a href="#top" className="brand">
+          <a href="" className="brand">
             <img className="brand-compass" src="/compass.png" alt="" width="132" height="156" />
             <span>FERIEEVENTYR</span>
           </a>
