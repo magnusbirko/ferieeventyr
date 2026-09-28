@@ -65,13 +65,16 @@ export default function Home() {
             <p>
               Lige nu testes den første version på Djursland sammen med familier,
               som har lyst til at være med helt fra begyndelsen.
-              Hvis du ønsler at
+            </p>
+            <p>
+              Har du spørgsmål, eller ønsker at deltage som test familie, kontakt på mail nederst på siden.
             </p>
           </div>
         </section>
       </main>
       <footer className="footer">
         <p>FERIEEVENTYR</p>
+        <p> Kontakt: info@ferieeventyr.dk</p>
       </footer>
     </>
   );
